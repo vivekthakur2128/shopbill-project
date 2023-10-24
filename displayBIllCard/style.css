@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: burlywood;
+  }
+  
+  .h-primary {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  
+  .listbox-container {
+    padding: 0px 20px;
+  }
+  
+  .listbox-container label {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .listbox-container select {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .printResult {
+    padding: 10px 20px;
+  }
+  
+  .printResult button {
+    padding: 3px 8px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+  } 
+  
+  .printResult button:hover {
+    cursor: pointer;
+     background-color: rgb(246, 127, 127);
+  }
+  
+  .display-bill {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    padding: 3%;
+  }
+  
+  .shop{
+    border: 1px solid yellow;
+    background-color: rgb(238, 245, 209);
+    padding: 10px 0px 10px 10px;
+    border-radius: 20px;
+  }
+  
+  .shop .shopinfo{
+    font-size: 22px;
+  }
+  
+  .noOfDaysStyle{
+    background-color: green;
+  }
